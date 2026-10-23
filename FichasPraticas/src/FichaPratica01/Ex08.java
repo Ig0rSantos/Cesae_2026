@@ -42,16 +42,25 @@ public class Ex08 {
 
         System.out.println("total de segundos: " + totalSegundosAlbum + "s");
 
-        int horas, minutos, segundo;
+        int horas, minutos, segundos;
 
+        // % (o resto da divisao)
         horas = totalSegundosAlbum / 3600;
+
         totalSegundosAlbum = totalSegundosAlbum % 3600;
+
         minutos= totalSegundosAlbum / 60;
 
+        totalSegundosAlbum = totalSegundosAlbum % 60;
 
-        // 1h -> 61000
+        segundos = totalSegundosAlbum;
 
-        System.out.println()
+        // total de segundos 61000
+        // 1h -> 3600seg
+        // 6100 - 3600 = 2500seg
+        // 2h -> 72000 ?
+
+        System.out.println("Duração total do álbum: " + horas + " h | " + minutos + " m | " + segundos + " s");
 
 
 
