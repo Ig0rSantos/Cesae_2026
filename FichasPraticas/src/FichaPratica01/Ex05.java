@@ -26,7 +26,7 @@ public class Ex05 {
         media1 = nota1 * 0.20;
         media2 = nota2 * 0.3;
         media3 = nota3 * 0.5;
-        //mediaPonderada = nota1 + 0.2 + nota2 * 0.3 + nota3 * 0.5;
+        //mediaPonderada = nota1 * 0.2 + nota2 * 0.3 + nota3 * 0.5;
         mediaPonderada = (media1 + media2 + media3);
         System.out.println("Media ponderada: " + mediaPonderada);
 
