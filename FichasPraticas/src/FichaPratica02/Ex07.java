@@ -8,6 +8,7 @@ public class Ex07 {
 
         int num;
 
+        // ler valores
         System.out.println("inserir um numero:");
         num= input.nextInt();
 
@@ -17,7 +18,7 @@ public class Ex07 {
         if (num % 2 == 0) {
             System.out.println("o numero inserido é par");
         }else{
-            System.out.println("o numero e impar");
+            System.out.println("o numero é impar");
         }
 
     }

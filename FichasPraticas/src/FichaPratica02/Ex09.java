@@ -15,6 +15,7 @@ public class Ex09 {
         System.out.print("introduzir o terceiro numero: ");
         numc= input.nextInt();
 
+        //para verificar o menor, basta trocar o sinal!
         if(numa>numb && numa>numc) {
             System.out.println("o numero maior e: " + numa);
         }
