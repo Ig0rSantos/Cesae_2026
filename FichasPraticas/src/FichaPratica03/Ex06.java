@@ -7,19 +7,17 @@ public class Ex06 {
         Scanner input = new Scanner(System.in);
 
 
-        int numero1, numero2=1;
+        int numero, limite=1;
 
         System.out.println("Insira o primeiro numero: ");
-        numero1= input.nextInt();
-        System.out.println("insira o segundo numero");
-        numero2= input.nextInt();
+        numero= input.nextInt();
+        System.out.println("insira o numero limite");
+       limite= input.nextInt();
 
-        while(numero1 <= numero2) {
-            System.out.println(numero1);
-            numero1=numero1 +1;
+        while(numero <= limite) {
+            System.out.println(numero);
+            numero=numero +1;
         }
-
-
     }
 }
 
