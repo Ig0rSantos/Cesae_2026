@@ -7,7 +7,7 @@ public class Ex04 {
 
         Scanner input = new Scanner(System.in);
 
-        // Variaveis
+        // Ler Variaveis
         double area, raio , pi;
 
         // Ler valores
