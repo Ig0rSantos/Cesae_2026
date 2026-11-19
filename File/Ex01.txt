@@ -1,0 +1,2 @@
+Hello! Estou a estudar Java!
+Este é o meu primeiro ficheiro!
