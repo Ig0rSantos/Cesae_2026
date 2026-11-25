@@ -13,7 +13,7 @@ public class Ex01 {
 
             // Define o caminho e o nome do ficheiro (ex: "abc01.txt" na pasta do projeto)
             File file = new File("File/Ex01.txt");
-            PrintWriter printWriter = new PrintWriter(file);
+            PrintWriter printWriter = new PrintWriter(file); //nome do ficheiro que foi aberto na linha 15 com o nome file
 
 
         printWriter.println(fileContent);
